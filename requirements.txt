@@ -8,21 +8,20 @@ requests==2.31.0
 hachoir
 cloudscraper
 pycryptodome
-pytz==2023.3.post1  # Keep only one pytz entry
+pytz==2023.3.post1
 certifi==2023.11.17  
 charset-normalizer==3.3.2
 databricks-sql-connector==3.0.1
 et-xmlfile==1.1.0
 idna==3.6
 lz4==4.3.3
-numpy==1.23.5  # Downgrade to a stable version
+numpy==1.23.5
 oauthlib==3.2.2
 openpyxl==3.1.2
-pandas==1.5.3  # Downgrade to a stable version
+pandas==1.5.3
 pyarrow==14.0.2
 python-dateutil==2.8.2
 python-dotenv==1.0.0
-requests==2.31.0  # Keep only one requests entry
 six==1.16.0
 SQLAlchemy==2.0.25
 thrift==0.16.0
@@ -32,3 +31,4 @@ urllib3==2.1.0
 bs4
 flask
 pyromod
+setuptools==65.5.0  # Add this line
